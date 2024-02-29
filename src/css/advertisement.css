@@ -1,0 +1,68 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advertisement {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #FBFBFB;
+}
+
+.advertisement-wrapper {
+    margin-bottom: 0;
+    color: #141414;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+}
+
+.advertisement-discount {
+    color: #FBFBFB;
+    border-radius: 12px;
+    background-color: #576F35;
+    padding: 0 14px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+@media screen and (max-width: 767.98px) {
+    .advertisement-discount {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .advertisement {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+    .advertisement-wrapper {
+        font-size: 64px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .advertisement-wrapper {
+        font-size: 64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .advertisement-wrapper {
+        font-size: 76px;
+    }
+}
