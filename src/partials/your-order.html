@@ -1,13 +1,15 @@
 <section class="order">
   <div class="container">
-    <h2 class="order-title">
-      Fresh <span>Harvest</span> Box has got you covered
-    </h2>
-    <p class="order-text">
-      Our boxes are packed with delicious, nutritious vegetables, perfect for
-      anyone looking to eat healthier or support local farmers. Order your box
-      today and start enjoying the best that nature has to offer!
-    </p>
+    <div class="preform-content">
+      <h2 class="order-title">
+        Fresh <span>Harvest</span> Box has got you covered
+      </h2>
+      <p class="order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
     <div class="order-content-wrap">
       <div class="order-form-container">
         <p class="order-form-title">
@@ -40,17 +42,63 @@
         </form>
       </div>
       <div class="order-social-container">
-        <img src="" alt="" class="order-social-img" />
+        <div class="img-container">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../img/your-order-img/order-stable.jpg    1x,
+                ../img/your-order-img/order-stable-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ../img/your-order-img/order-tab.jpg    1x,
+                ../img/your-order-img/order-tab-2x.jpg 2x
+              "
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/your-order-img/order.jpg    1x,
+                ../img/your-order-img/order-2x.jpg 2x
+              "
+            />
+            <img
+              src="../img/your-order-img/order-tab.jpg"
+              alt="Woman cooking"
+              class="order-social-img"
+              width="528"
+            />
+          </picture>
+          <div class="overlay"></div>
+        </div>
         <p class="order-social-text">Follow us on our social networks:</p>
         <ul class="order-social-list">
           <li class="order-social-item">
-            <a href="" class="order-social-link">instagram</a><span> / </span>
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="order-social-link"
+              target="_blank"
+              >instagram</a
+            ><span>/</span>
           </li>
           <li class="order-social-item">
-            <a href="" class="order-social-link">facebook</a><span> / </span>
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="order-social-link"
+              target="_blank"
+              >facebook</a
+            ><span>/</span>
           </li>
           <li class="order-social-item">
-            <a href="" class="order-social-link">youtube</a>
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              class="order-social-link"
+              target="_blank"
+              >youtube</a
+            >
           </li>
         </ul>
       </div>
