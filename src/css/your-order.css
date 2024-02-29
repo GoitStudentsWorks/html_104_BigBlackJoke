@@ -136,6 +136,38 @@
     height: 465px;
 }
 
+.order-social-img {
+    border-radius: 15px;
+}
+
+.order-social-text {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.order-social-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-social-item {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+}
+
+.order-social-item span {
+    max-width: 9px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
 @media screen and (min-width: 375px) {
     .container {
         width: 375px;
@@ -145,12 +177,93 @@
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
-        padding: 0 70px 0 32px;
+        padding: 0 32px;
     }
 
     .order {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+    .preform-content {
+        padding-right: 64px;
+    }
+
+    .order-title {
+        font-size: 64px;
+        line-height: 1;
+        margin-bottom: 25px;
+    }
+
+    .order-text {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 50px;
+    }
+
+    .order-form-container {
+        padding: 50px 100px;
+        max-width: 628px;
+        height: 534px;
+        margin-bottom: 25px;
+    }
+
+    .order-content-wrap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .order-form-title {
+        margin-bottom: 50px;
+    }
+    
+    .order-form-input {
+        font-size: 16px;
+        line-height: 1.25;
+        padding: 16px;
+        max-width: 428px;
+        height: 52px;
+    }
+    
+    .order-form-textarea {
+        padding: 16px;
+        max-width: 428px;
+        height: 95px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 25px;
+    }
+
+    .order-form-btn {
+        max-width: 428px;
+        height: 52px;
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+    .order-social-container {
+        padding: 50px;
+        max-width: 628px;
+        height: 490px;
+    }
+
+    .order-social-text {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+    .order-social-item {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .order-social-item span {
+        max-width: 11px;
+        margin-left: 12px;
+        margin-right: 12px;
     }
 }
 
@@ -158,5 +271,41 @@
     .container {
         width: 1280px;
         padding: 0 100px;
+    }
+
+    .order-title {
+        max-width: 751px;
+    }
+
+    .order-text {
+        max-width: 742px;
+    }
+
+    .order-content-wrap {
+        gap: 24px;
+    }
+
+    .order-form-container {
+        padding: 50px;
+        max-width: 529px;
+        height: 534px;
+        margin-bottom: 0;
+    }
+
+    .order-form-input {
+        max-width: 429px;
+    }
+
+    .order-form-textarea {
+        max-width: 429px;
+    }
+
+    .order-form-btn {
+        max-width: 429px;
+    }
+
+    .order-social-container {
+        max-width: 527px;
+        height: 534px;
     }
 }
