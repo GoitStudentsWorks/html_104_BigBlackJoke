@@ -27,6 +27,7 @@
 
 .how-it-image {
     display: flex;
+    position: relative;
     padding: 40px 20px;
     align-items: flex-start;
     gap: 10px;
@@ -37,7 +38,23 @@
 .how-it-image-woman {
     width: 100%;
     border-radius: 30px;
+    filter: brightness(70%);
+        /* Затемнение изображения */
+        /* Затемнение изображения */
+    /* Позиционируем изображение относительно родителя */
+    display: block;
+    /* Чтобы псевдоэлемент занимал всю ширину изображения */
 }
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 20, 20, 0.3);
+    border-radius: 15px;
+} */
 
 
 .how-it-about {
@@ -48,6 +65,8 @@
     justify-content: center;
     align-items: center;
 }
+
+
 
 
 .how-it-title {
