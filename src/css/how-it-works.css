@@ -20,19 +20,18 @@ ol {
 
 
 .container1 {
-    max-width: 375px;
+    min-width: 375px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 @media only screen and (min-width: 768px) {
     .container1 {
-    max-width: 768px;
-    padding: 0 64px;}
+    
+    }
 }
 @media only screen and (min-width: 1280px) {
     .container1 {
-    max-width: 1280px;
-    padding: 0 100px;}
+    
+}
 }
 
 
@@ -63,11 +62,12 @@ ol {
         align-items: flex-start;
         gap: 10px;
         background-color: #7A3145;
-        
+        justify-content: center;
         
 }
 
 .how-it-image-woman {
+
     width: 100%;
     border-radius: 30px;
     background-image: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%), url(../img/how-it-works/women-mob.jpg), lightgray -205.954px 0px / 222.958% 110.667% no-repeat;
@@ -179,8 +179,8 @@ ol {
     .how-it-works {}
 
     .how-it-image {
-        max-width: 768px;
-        padding: 100px 64px;
+        min-width: 768px;
+        padding: 100px 0;
     }
 
     .how-it-about {
