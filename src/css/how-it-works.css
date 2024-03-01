@@ -205,7 +205,9 @@ ol {
     }
 
     .how-it-image-woman {
-        
+        width: 640px;
+        height: 640px;
+        object-fit: contain;
     }
     
 }
