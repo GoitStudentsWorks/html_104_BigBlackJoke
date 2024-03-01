@@ -1,0 +1,152 @@
+
+.review-title {
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: rgba(20, 20, 20, 1);
+    letter-spacing: -0.01em;
+    line-height: 0.96;
+    margin-bottom: 20px;
+}
+
+.review-title-chan {
+color: rgba(87, 111, 53, 1);
+}
+
+.review-text {
+    font-size: 14px;
+    color: rgba(20, 20, 20, 1);
+    line-height: 1.28;
+    margin-bottom: 40px;
+}
+/* 
+.review-team {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .review-team-item {
+display: block;
+width: 343px;
+padding: 20px 16px 38px 16px;
+border-color: rgba(122, 49, 69, 0.3);
+border-radius: 24px;
+border-style: solid;
+} */
+/* 
+.when-tablet {
+display: none;
+}
+    
+.when-desktop {
+display: none;
+} */
+
+/* .rev-team-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.13;
+    margin: 0;
+} */
+/* 
+.img-block  {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 24px;
+} */
+
+/* .review-img {
+border-radius: 50%;
+}
+
+.rev-team-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color:rgba(4, 3, 6, 1);
+    text-align: center;
+    margin-bottom: 8px;
+ } */
+
+/* .rev-team-text {
+    font-size: 14px;
+    line-height: 1.11;
+    color: rgba(4, 3, 6, 0.4);
+    text-align: center;
+    margin: 0;
+} */
+
+
+/* @media screen and (min-width: 375px)  {
+   
+    .container {
+max-width: 375px;
+padding-left: 20px;
+padding-right: 20px;
+margin: 0 auto;
+    }
+
+.review {
+padding-top: 80px;
+padding-bottom: 80px;
+margin: 0;
+    }
+
+} */
+
+/* @media screen and (min-width: 768px)  { 
+      .container {
+max-width: 768px;
+padding-left: 32px;
+padding-right: 32px;     }
+
+.review {
+padding-top: 100px;
+padding-bottom: 100px;
+margin: 0;     }
+
+.review-title {
+margin-bottom: 25px;
+width: 560px;
+font-size: 64px;   }
+
+.review-text {
+width: 553px;
+font-size: 16px;
+margin-bottom: 50px;   }
+
+.review-team {
+flex-direction: row;
+gap: 18px;       }
+
+.when-tablet {
+display: block;  }
+
+.rev-team-title {
+font-size: 18px;   }
+
+.review-team-text {
+font-size: 16px;  }
+} */
+
+
+/* @media screen and (min-width: 1280px)
+{
+.container {
+max-width: 1280px;
+padding-left: 100px;
+padding-right: 100px;    }
+
+.review-team {
+flex-direction: row;
+gap: 25px;    }
+
+.when-desktop {
+display: block;    }
+} */
+
