@@ -34,7 +34,7 @@ color: rgba(87, 111, 53, 1);
 .review-team-item {
 display: block;
 width: 100%;
-padding: 20px 16px 38px 16px;
+padding: 20px 27px 20px 27px;
 border-color: rgba(122, 49, 69, 0.3);
 border-radius: 24px;
 border-style: solid;
@@ -120,9 +120,6 @@ line-height: 1.25; }
 flex-direction: row;
 gap: 18px;       }
 
-.review-team-item {
-max-width: 343px;
-padding: 20px 27px 42px 27px;}
 
 .when-tablet {
 display: block;  }
@@ -149,7 +146,4 @@ gap: 25px;    }
 .when-desktop {
 display: block;    }
 
-.review-team-item {
-    padding: 20px 20px 20px 20px;}
-}
 } */
