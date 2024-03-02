@@ -142,7 +142,7 @@
 
 
     .how-it-image {
-        padding: 100px 32px;
+        padding: 100px 64px;
     }
 
     .how-it-about {
@@ -167,7 +167,7 @@
     }
 
     .how-it-image-woman {
-        width: 640px;
+        min-width: 640px;
         height: 640px;
         object-fit: contain;
     }
@@ -190,7 +190,7 @@
     }
 
     .how-it-image-woman {
-        width: 430px;
+        min-width: 430px;
         height: 559px;
     }
     .how-it-about {
