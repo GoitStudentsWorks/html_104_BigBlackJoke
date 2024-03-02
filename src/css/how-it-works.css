@@ -39,22 +39,9 @@
     width: 100%;
     border-radius: 30px;
     filter: brightness(70%);
-        /* Затемнение изображения */
-        /* Затемнение изображения */
-    /* Позиционируем изображение относительно родителя */
     display: block;
-    /* Чтобы псевдоэлемент занимал всю ширину изображения */
 }
 
-/* .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(20, 20, 20, 0.3);
-    border-radius: 15px;
-} */
 
 
 .how-it-about {
@@ -155,7 +142,6 @@
 
 
     .how-it-image {
-        min-width: 768px;
         padding: 100px 32px;
     }
 
@@ -209,13 +195,12 @@
     }
     .how-it-about {
         flex-basis: 50%;
-        padding-top: 100px;
-        padding-left: 100px;
+        padding: 100px 100px 160px 100px;
     }
 
     .how-it-about-menu {
         width: 450px;
-        height: 499px;
+        
     }
 }
 
