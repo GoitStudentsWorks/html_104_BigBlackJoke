@@ -33,11 +33,11 @@ justify-content: center;
 
 .review-team-item {
 display: block;
-width: 100%;
+width: 343px;
+height: 258px; 
 padding: 20px 27px 20px 27px;
-border-color: rgba(122, 49, 69, 0.3);
+border: 1px solid rgba(122, 49, 69, 0.3);
 border-radius: 24px;
-border-style: solid;
 } 
 
 .when-tablet {
@@ -118,8 +118,11 @@ line-height: 1.25; }
 
 .review-team {
 flex-direction: row;
-gap: 18px;       }
+gap: 18px;   
+   }
 
+.review-team-item {
+width: calc((100% - 18px) / 2);}
 
 .when-tablet {
 display: block;  }
@@ -130,10 +133,7 @@ font-size: 18px;   }
 .rev-team-text {
 font-size: 16px;  }
 
-.when-tablet {
-padding: 20px 20px 42px 20px; }
-
-} 
+ }
 
 
 /* @media screen and (min-width: 1280px)
@@ -150,4 +150,4 @@ gap: 25px;    }
 .when-desktop {
 display: block;    }
 
-} */
+}  */
