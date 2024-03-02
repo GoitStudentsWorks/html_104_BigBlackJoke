@@ -17,18 +17,18 @@ color: rgba(87, 111, 53, 1);
 }
 
 .review-text {
-    font-size: 14px;
-    color: rgba(20, 20, 20, 1);
-    line-height: 1.28;
-    margin-bottom: 40px;
+font-size: 14px;
+color: rgba(20, 20, 20, 1);
+line-height: 1.28;
+margin-bottom: 40px;
 }
 
 .review-team {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
-    justify-content: center;
+display: flex;
+flex-direction: column;
+  gap: 25px;
+align-items: center;
+justify-content: center;
 } 
 
 .review-team-item {
@@ -131,7 +131,7 @@ font-size: 18px;   }
 font-size: 16px;  }
 
 .when-tablet {
-    padding: 20px 20px 42px 20px; }
+padding: 20px 20px 42px 20px; }
 
 } 
 
