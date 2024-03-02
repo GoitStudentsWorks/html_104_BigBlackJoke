@@ -77,11 +77,11 @@ border-radius: 50%;
  } 
  
  .rev-team-text {
-    font-size: 14px;
-    line-height: 1.11;
-    color: rgba(4, 3, 6, 0.4);
-    text-align: center;
-    letter-spacing: -0.01em;
+font-size: 14px;
+line-height: 1.11;
+color: rgba(4, 3, 6, 0.4);
+text-align: center;
+letter-spacing: -0.01em;
 } 
 
 @media screen and (min-width: 375px)  {
@@ -121,8 +121,8 @@ flex-direction: row;
 gap: 18px;       }
 
 .review-team-item {
-    max-width: 343px;
-    padding: 20px 27px 42px 27px;}
+max-width: 343px;
+padding: 20px 27px 42px 27px;}
 
 .when-tablet {
 display: block;  }
