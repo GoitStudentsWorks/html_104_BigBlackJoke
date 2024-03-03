@@ -10,6 +10,7 @@
 }
 
 .hero-main-text {
+    width: 335px;
     font-weight: 600;
     font-size: 48px;
     line-height: 1;
@@ -19,6 +20,7 @@
 }
 
 .hero-text {
+    width: 335px;
     font-size: 14px;
     line-height: 1.29;
 }
@@ -37,6 +39,7 @@
     }
 
     .hero-main-text {
+        width: 704px;
         font-size: 76px;
         margin-bottom: 25px;
     }
