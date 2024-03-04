@@ -1,5 +1,5 @@
 <section class="order">
-  <div class="container">
+  <div class="order-container">
     <div class="preform-content">
       <h2 class="order-title">
         Fresh <span>Harvest</span> Box has got you covered
@@ -18,23 +18,33 @@
           !
         </p>
         <form class="order-form">
+          <label for="user-name" class="visually-hidden"></label>
           <input
             type="text"
             name="user-name"
+            id="user-name"
             class="order-form-input"
             placeholder="Full name"
             required
           />
-          <input
-            type="email"
-            name="user-email"
-            class="order-form-input user-email"
-            placeholder="Email"
-            required
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          />
+          <label for="user-email" class="visually-hidden"></label>
+          <div class="email-container">
+            <input
+              type="email"
+              name="user-email"
+              id="user-email"
+              class="order-form-input user-email"
+              placeholder="Email"
+              required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <label for="user-comment" class="visually-hidden"></label>
           <textarea
             name="user-comment"
+            id="user-comment"
             class="order-form-textarea"
             placeholder="Comment"
           ></textarea>

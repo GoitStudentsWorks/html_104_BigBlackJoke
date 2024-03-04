@@ -1,4 +1,18 @@
-.container {
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.order-container {
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -79,12 +93,39 @@
     border-color: #7A3145;
 }
 
+.user-email {
+    margin-bottom: 25px;
+}
+
+.email-container {
+    position: relative;
+}
+
 .user-email:not(:placeholder-shown):invalid {
     border-color: #E74A3B;
 }
 
 .user-email:not(:placeholder-shown):valid {
     border-color: #3CBC81;
+}
+
+.text-valid,
+.text-invalid {
+    position: absolute;
+    bottom: 5px;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 4px;
+    display: none;
+    color: #141414;
+}
+
+.order-form-input:not(:placeholder-shown):valid ~ .text-valid {
+    display: block;
+}
+
+.order-form-input:not(:placeholder-shown):invalid ~ .text-invalid {
+    display: block;
 }
 
 .order-form-textarea {
@@ -182,14 +223,14 @@
 }
 
 @media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
+    .order-container {
+        max-width: 375px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
+    .order-container {
+        max-width: 768px;
         padding: 0 32px;
     }
 
@@ -280,7 +321,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .order-container {
         width: 1280px;
         padding: 0 100px;
     }
