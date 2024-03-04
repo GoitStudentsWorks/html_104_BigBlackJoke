@@ -1,6 +1,6 @@
 footer {
   --footer-info-icon-gap: 8px;
-  background-color: #7A3145;
+  background-color: #7a3145;
 }
 
 .container {
@@ -10,6 +10,7 @@ footer {
   /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
+  row-gap: 80px;
 }
 
 /* .wrapper {
@@ -29,7 +30,7 @@ footer {
 }
 
 .footer-logo {
-  fill: #FBFBFB;
+  fill: #fbfbfb;
   margin-bottom: 14px;
 }
 
@@ -99,7 +100,7 @@ footer {
   justify-content: space-between;
   gap: 16px;
   flex-wrap: wrap;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 .footer-name {
@@ -114,6 +115,7 @@ footer {
   .container {
     max-width: 768px;
     padding: 32px;
+    row-gap: 100px;
   }
 
   .container:not(:last-child) {
@@ -127,7 +129,7 @@ footer {
 
   .footer-logo-pc {
     display: block;
-    fill: #FBFBFB;
+    fill: #fbfbfb;
     margin-bottom: 25px;
   }
 
@@ -193,15 +195,16 @@ footer {
     /* margin-bottom: 100px; */
   }
 
-  .bottom-wrapper {
+  /* .bottom-wrapper {
     padding-top: 100px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 50px 100px;
+    row-gap: 125px;
   }
 
   /* .tablet-wrapper-item {
@@ -227,7 +230,7 @@ footer {
     margin-bottom: 0;
   }
 
-  .bottom-wrapper {
+  /* .bottom-wrapper {
     padding-top: 125px;
-  }
+  } */
 }
