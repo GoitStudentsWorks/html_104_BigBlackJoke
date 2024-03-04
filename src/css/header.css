@@ -265,6 +265,7 @@
 
     .desktop-navigation {
         display: flex;
+        align-items: baseline;
         justify-content: center;
         gap: 20px;
     }

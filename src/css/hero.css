@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 768px) {
     .hero-text-wrapper {
-        padding: 122px 32px 32px 50px;
+        padding: 122px 32px 50px 32px;
     }
 
     .hero-main-text {
@@ -71,7 +71,6 @@
     .hero-text-wrapper {
         display: flex;
         flex-direction: column;
-        align-items: center;
         padding: 238px 28px 50px 100px;
         width: 50%;
     }
