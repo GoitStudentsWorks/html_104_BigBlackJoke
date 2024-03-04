@@ -33,7 +33,7 @@ justify-content: center;
 
 .review-team-item {
 display: block;
-width: 343px;
+max-width: 343px;
 height: 238px; 
 padding: 20px 27px 20px 27px;
 border: 1px solid rgba(122, 49, 69, 0.3);
