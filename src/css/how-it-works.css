@@ -13,7 +13,7 @@
 
 
 .container1 {
-    min-width: 375px;
+    max-width: 375px;
     margin: 0 auto;
 }
 
@@ -131,10 +131,16 @@
 
 
 
-
 @media only screen and (min-width: 375px) {
     .how-it-about-menu {
         max-width: 335px;
+    }
+}
+
+@media only screen and (min-width: 376px) {
+    .container1 {
+        max-width: none;
+        min-width: 375px;
     }
 }
 
