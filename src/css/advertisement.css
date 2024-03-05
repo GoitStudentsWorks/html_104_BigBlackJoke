@@ -15,7 +15,7 @@
     background: #fbfbfb;
 }
 
-.promo-section .container {
+.promo-section .promo-container {
     padding: 80px 10px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .promo-section .container {
+    .promo-section .promo-container {
         padding: 100px 16px;
     }
 
@@ -68,7 +68,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .promo-section .container {
+    .promo-section .promo-container {
         padding: 100px 113px 100px 100px;
         max-width: 1280px;
         margin: 0 auto;

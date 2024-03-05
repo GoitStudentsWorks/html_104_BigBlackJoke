@@ -82,11 +82,16 @@ line-height: 1.11;
 color: rgba(4, 3, 6, 0.4);
 text-align: center;
 letter-spacing: -0.01em;
-} 
+}
+
+.review-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 @media screen and (min-width: 375px)  {
    
-    .container {
+    .review-container {
 max-width: 375px;
 padding-left: 20px;
 padding-right: 20px;
@@ -95,7 +100,7 @@ margin: 0 auto;
 } 
 
  @media screen and (min-width: 768px)  { 
-      .container {
+      .review-container {
 max-width: 768px;
 padding-left: 32px;
 padding-right: 32px;     }
@@ -138,7 +143,7 @@ font-size: 16px;  }
 
 @media screen and (min-width: 1280px)
 {
-.container {
+.review-container {
 max-width: 1280px;
 padding-left: 100px;
 padding-right: 100px;    }

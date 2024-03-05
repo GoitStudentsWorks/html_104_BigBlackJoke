@@ -322,7 +322,7 @@
 
 @media screen and (min-width: 1280px) {
     .order-container {
-        width: 1280px;
+        min-width: 1280px;
         padding: 0 100px;
     }
 
@@ -358,6 +358,6 @@
 
     .order-social-container {
         max-width: 527px;
-        height: 534px;
+        height: 548px;
     }
 }

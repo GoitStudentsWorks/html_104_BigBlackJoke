@@ -5,8 +5,8 @@
 .main-hero-container {
     display: flex;
     flex-direction: column;
-    max-width: 375px;
-    margin: 0 auto;
+    min-width: 320px;
+    /* margin: 0 auto; */
 }
 
 .hero-text-wrapper {
@@ -37,10 +37,24 @@
     background-size: cover;
 }
 
+@media screen and (min-width: 400px) and (max-width: 767px) {
+    .hero-picture {
+        background-size: 400px;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .hero-main-text, .hero-text {
+        max-width: 100%;
+        min-width: 335px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     
     .main-hero-container {
-        max-width: 768px;
+        min-width: 768px;
     }
     
     .hero-text-wrapper {
@@ -56,7 +70,7 @@
     .hero-text {
         font-size: 16px;
         line-height: 1.25;
-        max-width: 603px;
+        min-width: 603px;
     }
 
     .hero-picture {
@@ -66,10 +80,18 @@
     
 }
 
+@media screen and (min-width: 810px) and (max-width: 1279px) {
+    .hero-picture {
+        background-size: 810px;
+        background-position: center;
+    }
+}
+
 @media screen and (min-width: 1280px) {
 
     .main-hero-container {
         max-width: 1440px;
+        margin: 0 auto;
     }
 
     .desktop-container {
